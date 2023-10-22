@@ -9,6 +9,10 @@
 
 /* Verónica */
 
+body {
+    width: 90%;
+}
+
 header {
     width: 90%;
     margin: auto;
@@ -97,7 +101,7 @@ h1 {
     background-color: black;
 }
 
-.flecha-izq {
+.flecha-izq1 {
     color: white;
     font-size: 18px;
 }
@@ -106,7 +110,7 @@ h1 {
     background-color: rgb(236, 229, 229);
 }
 
-.flecha-der {
+.flecha-der1 {
     color: rgb(170, 168, 168);
     font-size: 18px;
 }
@@ -134,6 +138,7 @@ h1 {
     padding: 10px;
     margin-top: 10px;
     width: 60%;
+    height: 600px;
     display: flex;
     justify-content: space-between;
 }
@@ -195,10 +200,10 @@ ul li button i {
     margin-left: 130px;
 }
 
-.textos .titulo {
+.titulo-seccion1 {
     color: rgb(60, 41, 41);
     margin-bottom: 50px;
-    font-size: 21px;
+    font-size: 32px;
     font-family: font-family: 'Playfair Display', serif;
 }
 
@@ -370,6 +375,154 @@ ul li button i {
     color: grey;
 }
 
+/*Parte faltante*/
+
+.filaDeArriba {
+    width: 100%;
+    display: flex;
+}
+
+.izqArriba {
+    width: 37%;
+    height: 130px;
+    padding: 10px;
+    margin-left: 150px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.titulo-izqArriba {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.parrafo-izqArriba {
+    font-size: 13px;
+    color: grey;
+    line-height: 22px;
+}
+
+.derArriba {
+    width: 50%;
+    height: 130px;
+    padding: 10px;
+    display: flex;
+}
+
+.img-derArriba {
+    width: 110px;
+    height: 110px;
+    margin-top: 8px;
+}
+
+.texto-derArriba {
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.titulo-derArriba {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.parrafo-derArriba {
+    font-size: 13px;
+    color: grey;
+    line-height: 22px;
+}
+
+.filaDeAbajo {
+    width: 100%;
+    display: flex;
+}
+
+.izqAbajo {
+    width: 37%;
+    height: 130px;
+    padding: 10px;
+    margin-left: 150px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.izqAbajo button {
+    width: 100px;
+    height: 50px;
+    border: none;
+}
+
+.boton3 {
+    background-color: rgb(236, 229, 229);
+}
+
+.flecha-izq2 {
+    color: rgb(170, 168, 168);
+    font-size: 18px;
+}
+
+.boton4 {
+    background-color: black;
+}
+
+.flecha-der2 {
+    color: white;
+    font-size: 18px;
+}
+
+.derAbajo {
+    width: 50%;
+    height: 130px;
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.img-derAbajo {
+    width: 110px;
+    height: 110px;
+    margin-top: 8px;
+}
+
+.texto-derAbajo {
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.titulo-derAbajo {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.parrafo-derAbajo {
+    font-size: 13px;
+    color: grey;
+    line-height: 22px;
+}
+
+@media all and (max-width:1024px) {
+    .filaDeArriba {
+        display: flex;
+        flex-direction: column;
+      }
+.izqArriba{
+    height: 200px;
+}
+    .derArriba{
+        margin-left: 150px;
+      }
+    .filaDeAbajo {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .derAbajo{
+        margin-left: 150px;
+        height: auto;
+    }
+}
+
 /*Nicolás*/
 
 footer {
@@ -380,7 +533,7 @@ footer {
     position: relative;
     width: 91%;
     height: 100%;
-    top: 350px;
+    top: 100px;
     font-size: 0.8rem;
 }
 
